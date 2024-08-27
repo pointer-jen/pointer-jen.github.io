@@ -1,0 +1,105 @@
+:root {
+    sapphire: #5568f1;
+    background: #e4e4e4;
+    --color-3: #f8f8f8;
+    --color-4: #c0c3c8;
+  }
+  
+  body {
+    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-1) 25%, var(--color-2) 25%, var(--color-2) 50%, var(--color-3) 50%, var(--color-3) 75%, var(--color-4) 75%, var(--color-4) 100%);
+  }body {
+     /* background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); */
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    
+    h2 {
+      font-size: 30px;
+    }
+    
+    .established {
+      font-style: italic;
+    }
+    
+    h1, h2, p {
+      text-align: center;
+    }
+    
+    .info {
+      width: 80%;
+      background-color: #f8f8f8;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      max-width: 500px;
+    }
+    
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    hr {
+      height: 2px;
+      background-color: #5568f1;
+      border-color: #5568f1;
+    }
+    
+    .bottom-line {
+      margin-top: 25px;
+    }
+    
+    h1, h2 {
+      font-family: serif;
+      color: #c0c3c8;
+    }
+    
+    .item p {
+      display: inline-block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    
+    .resource {
+      text-align: left;
+      width: 75%;
+    }
+    
+    .added {
+      text-align: right;
+      width: 25%;
+    }
+    
+    /* FOOTER */
+    
+    footer {
+      font-size: 14px;
+    }
+    
+    .address {
+      margin-bottom: 5px;
+    }
+    
+    a {
+      color: black;
+    }
+    
+    a:visited {
+      color: #5568f1;
+    }
+    
+    a:hover {
+      color: white;
+    }
+    
+    a:active {
+      color: #5568f1;
+    }
